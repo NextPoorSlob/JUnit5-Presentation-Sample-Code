@@ -1,0 +1,28 @@
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+.recommenders/
+
+# Intellij
+.idea/
+*.iml
+*.ipr
+*.iws
+.shelf
+out/
+
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+# gradle
+.gradle
+/build/
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
