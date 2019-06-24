@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.nextpoorslob.junit5.maven</groupId>
+	<artifactId>junit5-demo-maven</artifactId>
+	<version>0.1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>parent-pom</name>
+	<description>This POM file does not set any dependencies.  Its purpose is to define all the demostraction products as modules, allowing you to run the entire  demo at once.</description>
+	<organization>
+		<name>Next Poor Slob Productions</name>
+		<url>www.nextpoorslob.com</url>
+	</organization>
+
+	<modules>
+		<module>a010-solo-maven</module>
+	</modules>
+</project>
