@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.nextpoorslob.junit5.a000.service;
+package com.nextpoorslob.junit5.a020.service;
 
 /**
  * Defines the required calculations for a calculator.

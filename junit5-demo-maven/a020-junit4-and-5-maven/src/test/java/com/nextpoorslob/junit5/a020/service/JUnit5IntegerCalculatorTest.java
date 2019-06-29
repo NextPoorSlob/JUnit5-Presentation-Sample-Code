@@ -1,19 +1,22 @@
 /**
  * 
  */
-package com.nextpoorslob.junit5.a000.service;
+package com.nextpoorslob.junit5.a020.service;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
+import com.nextpoorslob.junit5.a020.service.Calculator;
+import com.nextpoorslob.junit5.a020.service.IntegerCalculator;
+
 /**
  * Unit tests the Integer implementation of the Calculator interface.
  * @author Stephen Gelman
  *
  */
-class IntegerCalculatorTest {
+class JUnit5IntegerCalculatorTest {
 
 	private final Calculator<Integer> calculator = new IntegerCalculator();
 	
