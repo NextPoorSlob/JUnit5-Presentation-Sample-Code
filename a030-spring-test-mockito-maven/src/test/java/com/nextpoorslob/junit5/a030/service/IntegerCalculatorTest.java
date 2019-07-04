@@ -11,13 +11,14 @@ import org.junit.jupiter.api.Test;
 
 /**
  * Unit tests the Integer implementation of the Calculator interface.
+ * 
  * @author Stephen Gelman
  *
  */
 class IntegerCalculatorTest {
 
 	private final Calculator<Integer> calculator = new IntegerCalculator();
-	
+
 	@Test
 	void testAdd_whenNullValues_thenReturnZero() {
 
