@@ -27,9 +27,15 @@ public class IntegerCalculatorController {
 		this.calculator = calculator;
 	}
 
+	/**
+	 * Add two integers. Nobody iin their right mind would do it this way!
+	 * 
+	 * @param leftAddend  the Integer on the left.
+	 * @param rightAddend the Integer on the right.
+	 * @return a response object contains the sum of the addends.
+	 */
 	@GetMapping("/add/{leftAddend}/{rightAddend}")
-	public ResponseEntity<Integer> add(
-			@PathVariable("leftAddend") Integer leftAddend,
+	public ResponseEntity<Integer> add(@PathVariable("leftAddend") Integer leftAddend,
 			@PathVariable("rightAddend") Integer rightAddend) {
 		return ResponseEntity.ok(calculator.add(leftAddend, rightAddend));
 	}
