@@ -3,13 +3,11 @@
  */
 package com.nextpoorslob.junit5.a030.service;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.fail;
 
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
-
-import com.nextpoorslob.junit5.a030.service.Calculator;
-import com.nextpoorslob.junit5.a030.service.IntegerCalculator;
 
 /**
  * Unit tests the Integer implementation of the Calculator interface.
