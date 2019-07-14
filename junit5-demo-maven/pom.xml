@@ -17,5 +17,6 @@
 		<module>a010-solo-maven</module>
 		<module>b010-display-names-and-nesting-maven</module>
 		<module>b040-tagging-and-filtering-maven</module>
+		<module>b050-ordering-maven</module>
 	</modules>
 </project>
