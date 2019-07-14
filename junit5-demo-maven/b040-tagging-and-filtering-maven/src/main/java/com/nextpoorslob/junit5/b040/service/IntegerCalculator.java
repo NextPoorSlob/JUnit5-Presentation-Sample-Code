@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.nextpoorslob.junit5.a020.service;
+package com.nextpoorslob.junit5.b040.service;
 
 /**
  * Implements a Calculator for Integers.  Note that a null is considered a zero.

@@ -22,7 +22,7 @@ public class IntegerCalculator implements Calculator<Integer> {
 	public Integer subtract(Integer minuend, Integer subtrahend) {
 		
 		return (minuend != null ? minuend : 0)
-				+ (subtrahend != null ? subtrahend : 0);
+				- (subtrahend != null ? subtrahend : 0);
 	}
 
 }

@@ -3,15 +3,13 @@
  */
 package com.nextpoorslob.junit5.b010.service;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.fail;
 
 import org.junit.jupiter.api.Disabled;
-import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.DisplayNameGeneration;
 import org.junit.jupiter.api.Test;
 
-import com.nextpoorslob.junit5.b010.service.Calculator;
-import com.nextpoorslob.junit5.b010.service.IntegerCalculator;
 import com.nextpoorslob.junit5.b010.support.DisplayNameGeneratorCamelCaseToWords;
 
 /**
