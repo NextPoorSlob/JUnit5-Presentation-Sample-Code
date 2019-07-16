@@ -7,10 +7,9 @@
 		<artifactId>junit5-demo-maven</artifactId>
 		<version>0.1.0-SNAPSHOT</version>
 	</parent>
-	<groupId>com.nextpoorslob.junit5.maven.a000</groupId>
-	<artifactId>a010-solo-maven</artifactId>
-	<name>a010-solo-maven</name>
-	<description>Run a Java Maven project with JUnit 5 tests.</description>
+	<artifactId>b070-lambdas-maven</artifactId>
+	<name>b070-lambdas-maven</name>
+	<description>Additional demos of lambdas in JUnit 5.</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -34,30 +33,12 @@
 	</build>
 
 	<dependencies>
-		<!-- Combine the API and Engine -->
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter</artifactId>
 			<version>${junit.jupiter.version}</version>
 			<scope>test</scope>
 		</dependency>
-
-		<!-- Or separate the dependencies -->
-		<!-- 
-		<dependency>
-			<groupId>org.junit.jupiter</groupId>
-			<artifactId>junit-jupiter-api</artifactId>
-			<version>${junit.jupiter.version}</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.junit.jupiter</groupId>
-			<artifactId>junit-jupiter-engine</artifactId>
-			<version>${junit.jupiter.version}</version>
-			<scope>test</scope>
-		</dependency>
-		-->
-
 	</dependencies>
 
 </project>

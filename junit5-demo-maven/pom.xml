@@ -19,5 +19,6 @@
 		<module>b040-tagging-and-filtering-maven</module>
 		<module>b050-ordering-maven</module>
 		<module>b060-exception-handling-maven</module>
+		<module>b070-lambdas-maven</module>
 	</modules>
 </project>
