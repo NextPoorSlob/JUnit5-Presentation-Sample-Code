@@ -34,12 +34,13 @@ class IntegerCalculatorTest {
 	@Test
 	void divide_WhenZeroDividedBy0_ThenExpectAnException() {
 
-		assertThrows(ArithmeticException.class, () -> {
+		Exception exception = assertThrows(ArithmeticException.class, () -> {
 			assertEquals(0, calculator.divide(0, 0));
 		});
 		
 		// Since the assertThrows caught the expected error, you could continue
-		// your test with additional statements.  But that is being naughty!
+		// your test with additional statements.
+		assertEquals("/ by zero", exception.getMessage());
 	}
 
 	/**
