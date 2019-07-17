@@ -20,5 +20,7 @@
 		<module>b050-ordering-maven</module>
 		<module>b060-exception-handling-maven</module>
 		<module>b070-lambdas-maven</module>
+		<module>b080-dependency-injection-maven</module>
+		<module>b090-repeated-tests-maven</module>
 	</modules>
 </project>
