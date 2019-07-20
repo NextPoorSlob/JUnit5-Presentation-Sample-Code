@@ -1,0 +1,4 @@
+Country, reference, continent <- Skip the first line and you have headers!
+Sweden, 1, "Europe" 
+Poland, 2, "Europe"
+"United States of America", 3, "North America"

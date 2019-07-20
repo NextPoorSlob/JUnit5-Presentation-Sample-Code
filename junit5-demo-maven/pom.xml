@@ -22,5 +22,6 @@
 		<module>b070-lambdas-maven</module>
 		<module>b080-dependency-injection-maven</module>
 		<module>b090-repeated-tests-maven</module>
+		<module>b100-parameterized-tests-maven</module>
 	</modules>
 </project>
