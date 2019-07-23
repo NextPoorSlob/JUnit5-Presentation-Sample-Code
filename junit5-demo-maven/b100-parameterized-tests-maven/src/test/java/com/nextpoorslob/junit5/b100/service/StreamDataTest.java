@@ -44,7 +44,7 @@ public class StreamDataTest {
 	/**
 	 * Supplies the String stream for the testWithExplicitLocalMethodSource method.
 	 * 
-	 * @return a stearm of Strings.
+	 * @return a stream of Strings.
 	 */
 	static Stream<String> stringFactory() {
 		return Stream.of("apple", "banana");

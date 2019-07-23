@@ -10,6 +10,8 @@ import java.lang.annotation.Target;
 
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.condition.EnabledOnOs;
+import org.junit.jupiter.api.condition.OS;
 
 /**
  * Defines a custom tag to signify an end-to-end test.
@@ -20,5 +22,6 @@ import org.junit.jupiter.api.Test;
 @Retention(RetentionPolicy.RUNTIME)
 @Tag("EndToEndTest")
 @Test
+@EnabledOnOs(OS.WINDOWS)
 public @interface EndToEndTest {
 }

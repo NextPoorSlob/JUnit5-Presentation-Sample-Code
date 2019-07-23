@@ -13,7 +13,7 @@ import com.nextpoorslob.junit5.b040.service.IntegerCalculator;
 
 
 /**
- * Assumptions that fail do not appear as errors or failures.
+ * Assumptions that fail do not appear as errors or failures: they are disabled.
  *
  */
 class AssumptionTest {
@@ -35,7 +35,8 @@ class AssumptionTest {
 	 */
 	@Test
 	void testNotOnACiServer() {
-		assumeFalse("CI".equals(System.getenv("ENV")), () -> fail("This is not a DEV server!  Do NOT execute."));
+		assumeFalse("CI".equals(System.getenv("ENV")), 
+				() -> fail("This is not a CI server!  Do NOT execute."));
 
 		System.out.println("testOnlyOnDeveloperWorkstation - This should print!");
 	}

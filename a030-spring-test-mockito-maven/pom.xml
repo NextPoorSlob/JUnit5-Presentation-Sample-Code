@@ -6,8 +6,6 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<!-- Using a later version of the boot parent causes an unknown error in 
-			Eclipse. -->
 		<version>2.1.4.RELEASE</version>
 	</parent>
 	<groupId>com.nextpoorslob.junit5.maven</groupId>

@@ -25,7 +25,7 @@ class LambdaAssumptionTest {
 	@Test
 	void testNotOnACiServer() {
 		assumeFalse("CI".equals(System.getenv("ENV")), 
-				() -> fail("This is not a DEV server!  Do NOT execute."));
+				() -> fail("This is a CI server!  Do NOT execute."));
 
 		System.out.println("testOnlyOnDeveloperWorkstation - This should print!");
 	}
